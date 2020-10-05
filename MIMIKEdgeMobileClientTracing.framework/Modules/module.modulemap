@@ -1,0 +1,11 @@
+framework module MIMIKEdgeMobileClientTracing {
+  umbrella header "MIMIKEdgeMobileClientTracing.h"
+
+  export *
+  module * { export * }
+}
+
+module MIMIKEdgeMobileClientTracing.Swift {
+    header "MIMIKEdgeMobileClientTracing-Swift.h"
+    requires objc
+}
