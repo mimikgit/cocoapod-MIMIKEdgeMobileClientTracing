@@ -8,21 +8,21 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "MIMIKEdgeMobileClientTracingSDK"
+  s.name         = "MIMIKEdgeMobileClientTracing"
   s.version      = "0.1"
-  s.summary      = "Enable Tracing SDK features for MIMIKEdgeMobileClient."
+  s.summary      = "Enable Tracing features for MIMIKEdgeMobileClient."
 
   s.description  = <<-DESC
-  mimik MIMIKEdgeMobileClientTracingSDK - Enable tracing SDK features for your enterprise and consumer frontend apps.
+  mimik MIMIKEdgeMobileClientTracing - Enable tracing SDK features for your enterprise and consumer frontend apps.
   DESC
 
   s.homepage     = "https://github.com/mimikgit/edgeSDK"
   s.license      = { :type => "CUSTOM", :file => "LICENSE" }
 
   s.author       = { "mimik" => "apps@mimik.com" }
-  s.source       = { :git => "https://github.com/mimikgit/cocoapod-MIMIKEdgeMobileClientTracingSDK.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/mimikgit/cocoapod-MIMIKEdgeMobileClientTracing.git", :tag => "#{s.version}" }
 
-  s.vendored_frameworks = "MIMIKEdgeMobileClientTracingSDK.framework"
+  s.vendored_frameworks = "MIMIKEdgeMobileClientTracing.framework"
 
   s.dependency 'Alamofire', '~> 5.2.2'
   s.dependency 'KeychainSwift', '~> 19.0.0'
