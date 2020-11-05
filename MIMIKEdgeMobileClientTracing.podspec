@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint MIMIKEdgeMobileClient.podspec' to ensure this is a
+#  Be sure to run `pod spec lint MIMIKEdgeMobileClientTracing.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see http://docs.cocoapods.org/specification.html
@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MIMIKEdgeMobileClientTracing"
-  s.version      = "0.1"
+  s.version      = "1.0"
   s.summary      = "Enable Tracing features for MIMIKEdgeMobileClient."
 
   s.description  = <<-DESC
@@ -24,11 +24,8 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "MIMIKEdgeMobileClientTracing.framework"
 
-  s.dependency 'Alamofire', '~> 5.2.2'
-  s.dependency 'KeychainSwift', '~> 19.0.0'
-  s.dependency 'SwiftyJSON', '~> 5.0.0'
-  s.dependency 'JWTDecode', '~> 2.4.1'
+  s.dependency 'MIMIKEdgeMobileClient', '5.3.2'
 
-  s.platform = 'ios', '12.0'
-  s.swift_version = '5.2'
+  s.platform = 'ios', '13.1'
+  s.swift_version = '5.3'
 end
