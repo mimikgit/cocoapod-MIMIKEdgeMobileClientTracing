@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MIMIKEdgeMobileClientTracing"
-  s.version      = "1.0"
+  s.version      = "1.0.1"
   s.summary      = "Enable Tracing features for MIMIKEdgeMobileClient."
 
   s.description  = <<-DESC
