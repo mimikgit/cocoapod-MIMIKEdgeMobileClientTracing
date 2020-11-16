@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MIMIKEdgeMobileClientTracing"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Enable Tracing features for MIMIKEdgeMobileClient."
 
   s.description  = <<-DESC
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "MIMIKEdgeMobileClientTracing.framework"
 
-  s.dependency 'MIMIKEdgeMobileClient', '5.3.2'
+  s.dependency 'MIMIKEdgeMobileClient', '~> 5.3.2'
 
   s.platform = 'ios', '13.1'
   s.swift_version = '5.3'
